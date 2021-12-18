@@ -1,0 +1,45 @@
+.header{
+  position: absolute;
+  width: 100%;
+  top: 60px;
+  &__navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__left{
+    display: flex;
+    column-gap: 68px;
+    align-items: center;
+  }
+  &__menu{
+    display: flex;
+    column-gap: 24px;
+    list-style-type: none;
+  }
+  &__right{
+    display: flex;
+    column-gap: 21px;
+  }
+  &__icon{
+    color: white;
+    transition: 0.5s;
+    &:hover{
+      color: red;
+      transition: 0.5s;
+    }
+  }
+  &__link{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    transition: 0.5s;
+    &:hover{
+      color: red;
+      transition: 0.5s;
+    }
+  }
+}

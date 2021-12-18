@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+    <link rel="stylesheet" href="./src/css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <nav class="header__navbar">
+            <div class="header__left">
+                <img class="header__logo" src="./src/images/logo.png" alt="logo">
+                <ul class="header__menu">
+                    <li class="header__list"><a class="header__link" href="">Описание</a></li>
+                    <li class="header__list"><a class="header__link" href="">Трейлер</a></li>
+                    <li class="header__list"><a class="header__link" href="">Отзывы</a></li>
+                </ul>
+            </div>
+            <div class="header__right">
+                <a class="icon-twitter-bird header__icon" href=""></a>
+                <a class="icon-instagram header__icon" href=""></a>
+                <a class="icon-facebook header__icon" href=""></a>
+            </div>
+        </nav>
+        <div class="burger">
+            <span class="burger__line"></span>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="first-screen">
+        <div class="container">
+            <div class="first-screen__content">
+                <p class="first-screen__year">2019, фэнтези</p>
+                <div class="first-screen__rate">
+                    <ul class="first-screen__stars">
+                        <li class="first-screen__star">
+                            <img src="./src/images/redStar.svg" alt="redStar">
+                        </li>
+                        <li class="first-screen__star">
+                            <img src="./src/images/redStar.svg" alt="redStar">
+                        </li>
+                        <li class="first-screen__star">
+                            <img src="./src/images/redStar.svg" alt="redStar">
+                        </li>
+                        <li class="first-screen__star">
+                            <img src="./src/images/redStar.svg" alt="redStar">
+                        </li>
+                        <li class="first-screen__star">
+                            <img src="./src/images/redStar.svg" alt="redStar">
+                        </li>
+                        <li class="first-screen__star">
+                            <img src="./src/images/redStar.svg" alt="redStar">
+                        </li>
+                        <li class="first-screen__star">
+                            <img src="./src/images/redStar.svg" alt="redStar">
+                        </li>
+                        <li class="first-screen__star">
+                            <img src="./src/images/emptyStar.svg" alt="emptyStar">
+                        </li>
+                        <li class="first-screen__star">
+                            <img src="./src/images/emptyStar.svg" alt="emptyStar">
+                        </li>
+                        <li class="first-screen__star">
+                            <img src="./src/images/emptyStar.svg" alt="emptyStar">
+                        </li>
+
+                    </ul>
+                    <span class="first-screen__number">7/10</span>
+                </div>
+                <h1 class="first-screen__title">Ведьмак</h1>
+                <p class="first-screen__description">
+                    Ведьмак Геральт, мутант и убийца чудовищ, на своей верной лошади <br> по кличке Плотва путешествует по Континенту. За тугой мешочек
+                    <br> чеканных монет этот мужчина избавит вас от всякой настырной <br> нечисти — хоть от чудищ болотных, оборотней и даже
+                    <br> заколдованных принцесс.
+                </p>
+                <button class="first-screen__btn" type="button">Смотреть онлайн</button>
+                <div class="first-screen__carousel">
+                    <a data-fancybox="video-gallery" data-src="https://www.youtube.com/watch?v=5kyd23wFb2w" class="first-screen__series first">
+                        <p class="first-screen__series-num">Серия #1</p>
+                        <h2 class="first-screen__series-title">Начало конца</h2>
+                    </a>
+                    <a data-fancybox="video-gallery" data-src="https://www.youtube.com/watch?v=2O5vCo_ebmU" class="first-screen__series second">
+                        <p class="first-screen__series-num">Серия #2</p>
+                        <h2 class="first-screen__series-title">Четыре знака</h2>
+                    </a>
+                    <img class="first-screen__arrow" src="./src/images/arrow.svg" alt="arrow">
+                </div>
+                <a data-fancybox="video-gallery" data-src="https://www.youtube.com/watch?v=jMRBxL3KMFU"></a>
+                <a data-fancybox href="https://www.youtube.com/watch?v=aTPPmHqMZOw" class="first-screen__circle"></a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p class="footer__text">© 2020 The Witcher. All right reserved.</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<script src="./src/js/jquery-3.6.0.min.js"></script>
+<script src="./src/js/main.js"></script>
+</body>
+</html>

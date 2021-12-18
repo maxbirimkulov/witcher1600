@@ -1,0 +1,41 @@
+@import "../libs/fontello/css/fontello.css";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto:wght@400;700&display=swap');
+
+
+//font-family: 'Noto Serif', serif;
+//font-family: 'Roboto', sans-serif;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+
+.container{
+  max-width: 1135px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.burger{
+  display: none;
+}
+
+
+@import "header";
+@import "first-screen";
+@import "footer";
+@import "media";
+
+
+
+
+
+
+
+
+
+
